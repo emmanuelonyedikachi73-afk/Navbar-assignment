@@ -1,9 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kachi's Kitchen</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="Navbar.css">
 </head>
 <body>
@@ -15,21 +17,25 @@
 
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Menu</li>
-                <li>Orders</li>
-                <li>Outlet</li>
+                <li><a href="#"  class="active">Home</a></li>
+                <li><a href="#"  class="active">Menu <i class="fa-solid fa-angle-down"></i></a></li>
+                <li><a href="#"  class="active">Orders</a></li>
+                <li><a href="#"  class="active">Outlet</a></li>
             </ul>
         </nav>
+      
         <div class="search-box">
+            
             <input type="text" placeholder="Search food..">
-            <i class="fa solid fa-magnifying-glass"></i>
+
+            <i class="fa-solid fa-magnifying-glass"></i>
         </div>
 
         <div class="cart">
             <i class="fa-solid fa-cart-shopping"></i>
 
             <span>1</span>
+
         </div>
     </header>
     
