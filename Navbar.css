@@ -36,6 +36,7 @@ nav ul li a{
     color: black;
     font-size: 19px;
     transition: 2s;
+    font-weight: 500;
 }
 
 nav ul li a:hover {
@@ -85,4 +86,123 @@ width: 160px;
 nav ul li i{
     font-size: 12px;
     margin-right: 2px;
+}
+
+.hero-section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.welcome-text {
+    color: chocolate;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    color: black;
+    margin-bottom: 11px;
+}
+
+.hero-content h1 span{
+    color: chocolate;
+}
+
+.hero-description {
+    color:black;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 18px;
+    max-width: 520px;   
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.Order-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 14px 17px;
+    line-height: normal;
+    border-radius: 60px;
+    font-weight: 600;
+    transition: all ease 0.3s;
+    background: chocolate;
+    color: white;
+}
+
+.Order-button:hover {
+    background: black;
+}
+
+.hero-burger {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20%;
+}
+
+.hero-burger img {
+    flex: 1;
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Play-button {
+    width: 51px;
+    height: 51px;
+    border-radius: 50px;
+    border: 2px solid;
+    background: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: chocolate;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.Play-button:hover {
+    background: black;   
+}
+
+.Play-button i {
+    color: white;
+    font-size: 20px;
+}
+
+.burger-card {
+    flex: none;
+    width: 260px;
+    height: 340px;
+    background: chocolate;
+    border-radius: 27px;
+    position: relative;
+    overflow: hidden;
+}
+
+.burger-card img {
+    width: 130%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%)
 }
