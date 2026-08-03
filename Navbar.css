@@ -200,9 +200,187 @@ nav ul li i{
 }
 
 .burger-card img {
-    width: 130%;
+    width: 100%;
     position: absolute;
-    top: -50px;
+    top: -35px;
     left: 50%;
-    transform: translateX(-50%)
+    transform: translateX(-50%);
+}
+
+.delivery-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.menu-showcase {
+    width: 90%;
+    margin: 80px auto;    
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.menu-header h2 {
+font-size: 2rem;
+}
+
+.menu-header span{
+    color: chocolate;
+}
+
+.menu-header a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.food-grid{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 25px;
+}
+
+.food-card {
+    background: #fff5f5;
+    padding: 14px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    height: 350px;
+}
+
+.food-card:hover{
+    transform: translateY(-8px);
+}
+
+.food-card img{
+    width: 170px;
+    height: 150px;
+    display: block;
+    object-fit: contain;
+    margin: 0 auto 15px;
+}
+
+.food-card h3{
+    margin-top: 18px;
+    font-size: 20px;
+}
+
+.food-card p{
+    color: black;
+    font-size: 12px;
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+.food-footer{
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food-footer span{
+    color: chocolate;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.food-footer button{
+    border: none;
+    background: chocolate;
+    color: white;
+    padding: 7px 12px;
+    font-size: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.food-footer button:hover {
+    background: black;
+}
+
+.story-section {
+width: 90%;
+margin: 100px auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 70px;
+}
+
+.story-image {
+    flex: 1;
+    position: relative;
+}
+
+.image-frame {
+    width: 320px;
+    height: 420px;
+    background: chocolate;
+    border-radius: 36px;
+    overflow: hidden;
+}
+
+.image-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.story-content {
+    flex: 1;
+}
+
+.little title {
+    color: chocolate;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.story-content h2{
+    font-size: 50px;
+    margin: 15px 0;
+    line-height: 1.2;
+}
+
+.story-content span{
+    color: chocolate;
+}
+
+.story-content p{
+    color: black;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+.achievement-box {
+    display: flex;
+    gap: 20px;
+}
+
+.achievement {
+    flex: 1;
+    background: white;
+    padding: 25px;
+    border-radius: 18px;
+    text-align: center
+}
+
+.achievement h3{
+    color: chocolate;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.achievement p{
+    margin: 0;
+    color: black;
 }
